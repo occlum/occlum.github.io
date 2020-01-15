@@ -59,7 +59,8 @@ module.exports = {
           grid: true
         }
       }
-    }
+    },
+    publicPath: '/static/',
   },
   server: {
     host: '0.0.0.0',
