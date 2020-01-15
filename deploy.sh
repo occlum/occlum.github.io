@@ -2,10 +2,13 @@
 
 # please excute on gh-pages branch
 
-temp=`mktemp` && \
+git checkout gh-pages && \
+temp=`mktemp -d` && \
 npm run generate && \
-cp dist/* $temp/ && \
+cp -R dist/* $temp/ && \
 git checkout master && \
-cp $temp/* ./ && \
+cp -R $temp/* ./ && \
 git add . && \
 git commit -m "build"
+git push origin master && \
+git checkout gh-pages
