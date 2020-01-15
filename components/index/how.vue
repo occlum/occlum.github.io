@@ -6,7 +6,7 @@
     </div>
     <div class="inner">
       <div class="content">
-        <h1 class="title">How to use</h1>
+        <h2 class="title">How to use</h2>
         <div class="desc">
           <p>If you were to write an SGX Hello World project using some Enclave SDK (e.g., Intel SGX SDK), the project would consist of hundreds of lines of code. And to do that, you have to spend a great deal of time to learn the APIs, the programming model, and the built system of the SGX SDK.</p>
           <p>Thanks to Occlum, you can be freed from writing any extra enclave-aware code and only need to type some simple commands to protect your application with enclaves transparently (see the figure).</p>

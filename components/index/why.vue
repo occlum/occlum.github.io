@@ -1,7 +1,7 @@
 <template>
   <div id="why" class="container">
     <div class="inner">
-      <h1 class="title right">Why Occlum</h1>
+      <h2 class="title right">Why Occlum</h2>
       <div class="content">
         <img src="~/assets/image/architecture.svg" alt="" class="diagram">
         <div class="desc">

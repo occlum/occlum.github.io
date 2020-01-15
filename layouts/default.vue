@@ -159,10 +159,11 @@ export default {
     }
     .inner {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: space-between;
       @media (--mobile) {
         flex-direction: column;
+        align-items: center;
       }
       .left {
         .github {
