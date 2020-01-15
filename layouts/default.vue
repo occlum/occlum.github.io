@@ -26,6 +26,11 @@
       </a>
     </header>
     <nuxt />
+    <index />
+    <why />
+    <how />
+    <feature />
+    <case />
     <footer class="container">
       <div class="inner">
         <div class="left">
@@ -48,7 +53,20 @@
 </template>
 
 <script>
+import Index from '~/components/index/index.vue'
+import Why from '~/components/index/why.vue'
+import How from '~/components/index/how.vue'
+import Feature from '~/components/index/feature.vue'
+import Case from '~/components/index/case.vue'
+
 export default {
+  components: {
+    Index,
+    Why,
+    How,
+    Feature,
+    Case,
+  },
   data() {
     return {
       menuShow: false,
