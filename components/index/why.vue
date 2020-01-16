@@ -5,8 +5,8 @@
       <div class="content">
         <img src="~/assets/image/architecture.svg" alt="" class="diagram">
         <div class="desc">
-          <p>Modern applications involve very dynamic deployment scenarios, e.g. public clouds, edge sites, which often are totally untrusted environments. While computation confidentiality and integrity are highly desired in these cases, Intel SGX is famous for being hard to use.</p>
-          <p>Occlum is built to make application protection very simple. <span class="bold">It allows one to run prebuilt Docker images in SGX enclaves with one command: occlum run.</span> Instead of spending months to port your code to SGX, Occlum turns on your applications now!</p>
+          <p>Modern applications are being increasingly deployed to untrusted infrastructure, e.g., public clouds, IoT devices, blockchain nodes, etc. While a new class of hardware security technology known as enclaves (e.g., <a class="bold" href="https://software.intel.com/en-us/sgx" target="_blank">Intel SGX</a>) can provide the much-needed protection in these scenarios, secure enclaves are well known to be hard to program.</p>
+          <p>Occlum makes running applications inside enclaves easy. <span class="italic">It allows one to run unmodified programs inside enclaves within just a few simple commands.</span> And Occlum is open-source and free to use. So, instead of spending months to port your code into enclaves, you can run your applications inside enclaves now!</p>
         </div>
       </div>
     </div>
@@ -38,6 +38,7 @@ export default {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     @media (--mobile) {
       flex-direction: column;
@@ -45,7 +46,7 @@ export default {
     .diagram {
       max-width: 550px;
       @media (--table) {
-        max-width: 45vw;
+        max-width: 50vw;
       }
       @media (--mobile) {
         max-width: 100%;

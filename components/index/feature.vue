@@ -8,14 +8,14 @@
             <img src="~/assets/image/multitasking.png" alt="" class="icon">
             <div class="right">
               <h3 class="sub-title">Efficient Multitasking</h3>
-              <p class="desc">Occlum offers light-weight LibOS processes: they are light-weight in the sense that all LibOS processes share the same SGX enclave. Compared to the heavy-weight, per-enclave LibOS processes, Occlum’s light-weight LibOS processes is up to 1,000X faster on startup and 3X faster on IPC. In addition, Occlum offers an optional multi-domain Software Fault Isolation scheme to isolate the Occlum LibOS processes if needed.</p>
+              <p class="desc">Occlum offers light-weight LibOS processes that share the single address space of an enclave. These light-weighth LibOS processes can be 1,000X faster on startup and 3X faster on inter-process communication, compared to the traditional heavy-weight, per-enclave LibOS processes.</p>
             </div>
           </div>
           <div class="item">
             <img src="~/assets/image/fs.svg" alt="" class="icon">
             <div class="right">
               <h3 class="sub-title">Multiple File System Support</h3>
-              <p class="desc">Occlum supports various types of file systems, e.g., read-only hashed FS (for integrity protection), writable encrypted FS (for confidentiality protection), untrusted host FS (for convenient data exchange between the LibOS and the host OS).</p>
+              <p class="desc">Occlum supports various types of file systems, e.g., read-only hashed FS (for integrity protection), writable encrypted FS (for confidentiality protection), untrusted host FS (for convenient data exchange between the LibOS and the host OS), etc.</p>
             </div>
           </div>
         </div>
@@ -24,14 +24,14 @@
             <img src="~/assets/image/memory.svg" alt="" class="icon">
             <div class="right">
               <h3 class="sub-title">Memory Safe</h3>
-              <p class="desc">Occlum is built from scratch with Rust, which helps to minimize low-level, memory-safety bugs and add more trustworthy to host security-critical applications.</p>
+              <p class="desc">Occlum is built from scratch with <a class="bold" href="https://www.rust-lang.org/" target="_blank">Rust</a>, which helps to minimize low-level, memory-safety bugs and thus more trustworthy to host security-critical applications.</p>
             </div>
           </div>
           <div class="item">
             <img src="~/assets/image/easy.svg" alt="" class="icon">
             <div class="right">
-              <h3 class="sub-title">Ease-of-use</h3>
-              <p class="desc">Occlum provides user-friendly build and command-line tools. Running applications on Occlum inside SGX enclaves can be as simple as only typing several shell commands (see the next section).</p>
+              <h3 class="sub-title">Ease of Use</h3>
+              <p class="desc">Occlum provides user-friendly build and command-line tools. Running applications on Occlum inside SGX enclaves can be as simple as only typing several shell commands.</p>
             </div>
           </div>
         </div>

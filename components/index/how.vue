@@ -6,10 +6,9 @@
     </div>
     <div class="inner">
       <div class="content">
-        <h2 class="title">How to use</h2>
+        <h2 class="title">How to Use</h2>
         <div class="desc">
-          <p>If you were to write an SGX Hello World project using some Enclave SDK (e.g., Intel SGX SDK), the project would consist of hundreds of lines of code. And to do that, you have to spend a great deal of time to learn the APIs, the programming model, and the built system of the SGX SDK.</p>
-          <p>Thanks to Occlum, you can be freed from writing any extra enclave-aware code and only need to type some simple commands to protect your application with enclaves transparently (see the figure).</p>
+          <p>If you were to write a Hello World program using some Enclave SDK (e.g., Intel SGX SDK), the project would consist of hundreds of lines of code. Thanks to Occlum, you can be freed from writing any extra enclave-aware code and only need to type some simple commands: <code>occlum init</code>, <code>occlum build</code>, and <code>occlum run</code>.</p>
         </div>
       </div>
       <div class="diagram">
@@ -40,7 +39,7 @@ export default {
 @import "~/assets/css/base.css";
 
 .container {
-  padding: 120px 0 0px 0;
+  padding: 120px 0 50px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -2,7 +2,7 @@
   <div id="app">
     <ul class="menu-popup" v-show="menuShow" @click="close">
       <li><a @click="close" href="#why">Why Occlum</a></li>
-      <li><a @click="close" href="#how">How to use</a></li>
+      <li><a @click="close" href="#how">How to Use</a></li>
       <li><a @click="close" href="#feature">Features</a></li>
       <li><a @click="close" href="#case">Use Cases</a></li>
       <li><a @click="close" href="https://github.com/occlum/occlum" target="_blank">Github</a></li>
@@ -16,7 +16,7 @@
       </a>
       <ul class="menu">
         <li><a href="#why">Why Occlum</a></li>
-        <li><a href="#how">How to use</a></li>
+        <li><a href="#how">How to Use</a></li>
         <li><a href="#feature">Features</a></li>
         <li><a href="#case">Use Cases</a></li>
         <li><a href="https://github.com/occlum/occlum" target="_blank">Github</a></li>
