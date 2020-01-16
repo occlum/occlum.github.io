@@ -25,7 +25,7 @@ export default {
 
 .container {
   .inner {
-    padding: 80px 0 80px 0;
+    padding: 80px 0 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

@@ -39,7 +39,7 @@ export default {
 @import "~/assets/css/base.css";
 
 .container {
-  padding: 120px 0 50px 0;
+  padding: 120px 0 70px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

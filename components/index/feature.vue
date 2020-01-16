@@ -51,7 +51,7 @@ export default {
 @import "~/assets/css/base.css";
 
 .container {
-  padding: 50px 0 80px 0;
+  padding: 50px 0 100px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
