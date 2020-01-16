@@ -198,6 +198,7 @@ ul {
   }
   .italic {
     font-style: italic;
+    color: $color-main;
   }
   code {
     background-color: #c0e4ff;

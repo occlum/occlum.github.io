@@ -8,7 +8,7 @@
             <img src="~/assets/image/multitasking.png" alt="" class="icon">
             <div class="right">
               <h3 class="sub-title">Efficient Multitasking</h3>
-              <p class="desc">Occlum offers light-weight LibOS processes that share the single address space of an enclave. These light-weighth LibOS processes can be 1,000X faster on startup and 3X faster on inter-process communication, compared to the traditional heavy-weight, per-enclave LibOS processes.</p>
+              <p class="desc">Occlum offers light-weight LibOS processes that share the single address space of an enclave. These light-weight LibOS processes can be 1,000X faster on startup and 3X faster on inter-process communication, compared to the traditional heavy-weight, per-enclave LibOS processes.</p>
             </div>
           </div>
           <div class="item">

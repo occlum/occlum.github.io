@@ -6,7 +6,7 @@
         <img src="~/assets/image/architecture.svg" alt="" class="diagram">
         <div class="desc">
           <p>Modern applications are being increasingly deployed to untrusted infrastructure, e.g., public clouds, IoT devices, blockchain nodes, etc. While a new class of hardware security technology known as enclaves (e.g., <a class="bold" href="https://software.intel.com/en-us/sgx" target="_blank">Intel SGX</a>) can provide the much-needed protection in these scenarios, secure enclaves are well known to be hard to program.</p>
-          <p>Occlum makes running applications inside enclaves easy. <span class="italic">It allows one to run unmodified programs inside enclaves within just a few simple commands.</span> And Occlum is open-source and free to use. So, instead of spending months to port your code into enclaves, you can run your applications inside enclaves now!</p>
+          <p>Occlum makes running applications inside enclaves easy. <span class="italic">It allows one to run unmodified programs inside enclaves with just a few simple commands.</span> And Occlum is open-source and free to use. So, instead of spending months to port your code into enclaves, you can run your applications inside enclaves now!</p>
         </div>
       </div>
     </div>
