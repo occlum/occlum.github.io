@@ -33,7 +33,7 @@
     <case />
     <footer class="container">
       <div class="inner">
-        <a class="left" href="https://github.com/occlum/occlum" target="_blank">
+        <a class="left" target="_blank" href="https://github.com/occlum/occlum">
           <div class="github">
             Github
             <div class="button">
