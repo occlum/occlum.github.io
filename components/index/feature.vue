@@ -23,7 +23,7 @@
           <div class="item">
             <img src="~/assets/image/memory.svg" alt="" class="icon">
             <div class="right">
-              <h3 class="sub-title">Memory Safe</h3>
+              <h3 class="sub-title">Memory Safety</h3>
               <p class="desc">Occlum is built from scratch with <a class="bold" href="https://www.rust-lang.org/" target="_blank">Rust</a>, which helps to minimize low-level, memory-safety bugs and thus more trustworthy to host security-critical applications.</p>
             </div>
           </div>
