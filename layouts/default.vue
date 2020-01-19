@@ -33,17 +33,15 @@
     <case />
     <footer class="container">
       <div class="inner">
-        <div class="left">
-          <a class="github">
+        <a class="left" target="_blank" href="https://github.com/occlum/occlum">
+          <div class="github">
             Github
             <div class="button">
               <a class="github-button" href="https://github.com/occlum/occlum" data-size="large" data-show-count="true" aria-label="Star occlum/occlum on GitHub">Star</a>
             </div>
-          </a>
-          <a target="_blank" href="https://github.com/occlum/occlum">
-            <img src="~/assets/image/logo.png" alt="" class="logo">
-          </a>
-        </div>
+          </div>
+          <img src="~/assets/image/logo.png" alt="" class="logo">
+        </a>
         <div class="right">
           A Rust-based LibOS for Unmodified Applications on SGX,  from the operating system (OS) kernel into a userspace library.
         </div>
@@ -168,6 +166,8 @@ export default {
         align-items: center;
       }
       .left {
+        cursor: pointer;
+        display: block;
         .github {
           display: flex;
           align-items: center;

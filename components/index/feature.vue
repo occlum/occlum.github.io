@@ -14,7 +14,7 @@
           <div class="item">
             <img src="~/assets/image/fs.svg" alt="" class="icon">
             <div class="right">
-              <h3 class="sub-title">Multiple File System Support</h3>
+              <h3 class="sub-title">Multiple File Systems</h3>
               <p class="desc">Occlum supports various types of file systems, e.g., read-only hashed FS (for integrity protection), writable encrypted FS (for confidentiality protection), untrusted host FS (for convenient data exchange between the LibOS and the host OS), etc.</p>
             </div>
           </div>
@@ -31,7 +31,7 @@
             <img src="~/assets/image/easy.svg" alt="" class="icon">
             <div class="right">
               <h3 class="sub-title">Ease of Use</h3>
-              <p class="desc">Occlum provides user-friendly build and command-line tools. Running applications on Occlum inside SGX enclaves can be as simple as only typing several shell commands.</p>
+              <p class="desc">Occlum provides user-friendly build and utility command-line tools. Running applications on Occlum inside SGX enclaves can be as simple as only typing several shell commands.</p>
             </div>
           </div>
         </div>
