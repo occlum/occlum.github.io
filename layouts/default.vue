@@ -33,17 +33,15 @@
     <case />
     <footer class="container">
       <div class="inner">
-        <div class="left">
-          <a class="github-link" target="_blank" href="https://github.com/occlum/occlum">
-            <span class="github">Github</span>
-            <a class="github-button" href="https://github.com/occlum/occlum" data-size="large" data-show-count="true" aria-label="Star occlum/occlum on GitHub">Star</a>
-          </a>
-          <a class="github-link" target="_blank" href="https://github.com/occlum/occlum">
+        <a class="github-link" target="_blank" href="https://github.com/occlum/occlum">
+          <span class="github">Github</span>
+          <a class="github-button" href="https://github.com/occlum/occlum" data-size="large" data-show-count="true" aria-label="Star occlum/occlum on GitHub">Star</a>
+        </a>
+        <div class="bottom">
+          <a class="left github-link" target="_blank" href="https://github.com/occlum/occlum">
             <img src="~/assets/image/logo.png" alt="" class="logo">
           </a>
-        </div>
-        <div class="right">
-          A library OS empowering everyone to run every application in secure enclaves.
+          <div class="right">A library OS empowering everyone to run every application in secure enclaves.</div>
         </div>
       </div>
     </footer>
@@ -154,46 +152,58 @@ export default {
   }
   footer {
     padding: 180px 0 90px 0;
+    display: flex;
+    flex-direction: column;
     @media (--mobile) {
       padding: 80px 0 80px 0;
     }
     .inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       @media (--mobile) {
         flex-direction: column;
         align-items: center;
       }
-      .left {
-        cursor: pointer;
-        display: block;
-        .github-link {
-          display: flex;
-          align-items: center;
-          font-size: 36px;
-          font-weight: 800;
-          margin-bottom: 20px;
-          .github {
-            display: block;
-            margin-right: 15px;
-          }
+      .github-link {
+        display: flex;
+        align-items: center;
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        @media (--mobile) {
+          justify-content: center;
         }
-        .logo {
-          height: 80px;
+        .github {
+          display: block;
+          margin-right: 15px;
         }
       }
-      .right {
-        font-size: 24px;
-        font-weight: 800;
-        max-width: 550px;
-        text-align: right;
-        font-style: italic;
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         @media (--mobile) {
-          margin-top: 30px;
-          font-size: 20px;
-          max-width: 80vw;
-          text-align: center;
+          flex-direction: column;
+          align-items: center;
+        }
+        .left {
+          cursor: pointer;
+          display: block;
+          .logo {
+            height: 80px;
+          }
+        }
+        .right {
+          font-size: 24px;
+          font-weight: 800;
+          max-width: 550px;
+          text-align: right;
+          font-style: italic;
+          margin-bottom: 30px;
+          @media (--mobile) {
+            margin-bottom: 0;
+            font-size: 22px;
+            max-width: 80vw;
+            text-align: center;
+          }
         }
       }
     }
