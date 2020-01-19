@@ -43,7 +43,7 @@
           </a>
         </div>
         <div class="right">
-          A Rust-based LibOS for Unmodified Applications on SGX,  from the operating system (OS) kernel into a userspace library.
+          A library OS empowering everyone to run every application in secure enclaves.
         </div>
       </div>
     </footer>
@@ -159,7 +159,7 @@ export default {
     }
     .inner {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       justify-content: space-between;
       @media (--mobile) {
         flex-direction: column;
